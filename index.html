@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonçalves & Co. - Comércio, Gestão e Logística</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="dist/css/main.css">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Gonçalves & Co. - Empresa tradicional especializada em comércio, gestão e logística com mais de 50 anos de experiência no mercado brasileiro.">
+    <meta name="keywords" content="comércio, gestão, logística, importação, exportação, consultoria empresarial">
+    <meta name="author" content="Gonçalves & Co.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Gonçalves & Co. - Comércio, Gestão e Logística">
+    <meta property="og:description" content="Old Trade and Old Money - O Melhor dos Dois Mundos">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://goncalvesco.com.br">
+</head>
+
+<body>
+    <!-- Seletor de Idioma -->
+    <div class="language-selector">
+        <div class="language-buttons">
+            <button class="btn btn-sm btn-outline-light led-glow" data-lang="pt" onclick="changeLanguage('pt')">
+                <i class="fas fa-globe"></i> PT
+            </button>
+            <button class="btn btn-sm btn-outline-light led-glow" data-lang="en" onclick="changeLanguage('en')">
+                <i class="fas fa-globe"></i> EN
+            </button>
+            <button class="btn btn-sm btn-outline-light led-glow" data-lang="es" onclick="changeLanguage('es')">
+                <i class="fas fa-globe"></i> ES
+            </button>
+        </div>
+    </div>
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top cyber-nav">
+        <div class="container">
+            <a class="navbar-brand led-glow" href="#">
+                <i class="fas fa-cube me-2"></i>
+                <strong>Gonçalves & Co.</strong>
+            </a>
+            
+            <button class="navbar-toggler led-glow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link led-glow" href="#home" data-translate="nav_home">
+                            <i class="fas fa-home me-1"></i>Início
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link led-glow" href="#about" data-translate="nav_about">
+                            <i class="fas fa-users me-1"></i>Quem Somos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link led-glow" href="#services" data-translate="nav_services">
+                            <i class="fas fa-cogs me-1"></i>Nossos Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link led-glow" href="#contact" data-translate="nav_contact">
+                            <i class="fas fa-envelope me-1"></i>Entre em Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center hero-content">
+                    <div class="hero-text-container">
+                        <h1 class="hero-title led-glow fade-in" data-translate="hero_title">Gonçalves & Co. - Comércio, Gestão e Logística</h1>
+                        <h2 class="hero-subtitle neon-text fade-in" data-translate="hero_subtitle">Old Trade and Old Money</h2>
+                        <p class="hero-tagline cyber-text fade-in" data-translate="hero_tagline">(O Melhor dos Dois Mundos)</p>
+                        <p class="hero-location fade-in" data-translate="hero_location">
+                            <i class="fas fa-map-marker-alt me-2"></i>São Paulo - SP - Brasil
+                        </p>
+                        <div class="hero-buttons fade-in">
+                            <a href="#services" class="btn btn-primary btn-lg led-glow me-3">
+                                <i class="fas fa-rocket me-2"></i>Nossos Serviços
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg led-glow">
+                                <i class="fas fa-phone me-2"></i>Contato
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="content-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="about-content">
+                        <h2 class="section-title led-glow fade-in" data-translate="about_title">
+                            <i class="fas fa-users me-3"></i>Quem Somos
+                        </h2>
+                        <p class="about-text fade-in" data-translate="about_content">
+                            Somos uma empresa tradicional com mais de 50 anos de experiência no mercado brasileiro, 
+                            especializada em comércio, gestão e logística. Nossa missão é manter os valores tradicionais 
+                            do comércio, combinados com as melhores práticas modernas de gestão.
+                        </p>
+                        <div class="about-stats fade-in d-flex justify-content-center flex-wrap">
+                            <div class="stat-item led-glow">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Anos de Experiência</div>
+                            </div>
+                            <div class="stat-item led-glow">
+                                <div class="stat-number">1000+</div>
+                                <div class="stat-label">Clientes Atendidos</div>
+                            </div>
+                            <div class="stat-item led-glow">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Suporte Disponível</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="services" class="content-section services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title led-glow fade-in" data-translate="services_title">
+                        <i class="fas fa-cogs me-3"></i>Nossos Serviços
+                    </h2>
+                    <p class="section-subtitle fade-in">Soluções completas para o seu negócio</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card led-glow fade-in cyber-border">
+                        <div class="service-icon-container">
+                            <div class="service-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h3 class="service-title" data-translate="service_1_title">Comércio Internacional</h3>
+                        <p class="service-description" data-translate="service_1_desc">
+                            Importação e exportação de produtos com expertise em mercados emergentes.
+                        </p>
+                        <div class="service-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Análise de mercado</li>
+                                <li><i class="fas fa-check"></i> Documentação completa</li>
+                                <li><i class="fas fa-check"></i> Suporte logístico</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-outline-primary btn-sm led-glow">
+                            <i class="fas fa-arrow-right me-2"></i>Saiba Mais
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card led-glow fade-in cyber-border">
+                        <div class="service-icon-container">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h3 class="service-title" data-translate="service_2_title">Gestão Empresarial</h3>
+                        <p class="service-description" data-translate="service_2_desc">
+                            Consultoria estratégica para otimização de processos e aumento de eficiência.
+                        </p>
+                        <div class="service-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Consultoria estratégica</li>
+                                <li><i class="fas fa-check"></i> Otimização de processos</li>
+                                <li><i class="fas fa-check"></i> Análise de performance</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-outline-primary btn-sm led-glow">
+                            <i class="fas fa-arrow-right me-2"></i>Saiba Mais
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card led-glow fade-in cyber-border">
+                        <div class="service-icon-container">
+                            <div class="service-icon">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h3 class="service-title" data-translate="service_3_title">Logística Integrada</h3>
+                        <p class="service-description" data-translate="service_3_desc">
+                            Soluções completas de transporte, armazenagem e distribuição.
+                        </p>
+                        <div class="service-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Transporte especializado</li>
+                                <li><i class="fas fa-check"></i> Armazenagem segura</li>
+                                <li><i class="fas fa-check"></i> Distribuição eficiente</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-outline-primary btn-sm led-glow">
+                            <i class="fas fa-arrow-right me-2"></i>Saiba Mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="content-section contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title led-glow fade-in" data-translate="contact_title">
+                        <i class="fas fa-envelope me-3"></i>Entre em Contato
+                    </h2>
+                    <p class="section-subtitle fade-in">Estamos prontos para atender você</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-item led-glow fade-in cyber-border">
+                        <div class="contact-icon-container">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="icon-pulse"></div>
+                        </div>
+                        <h4 class="contact-title">Endereço</h4>
+                        <p class="contact-info" data-translate="contact_address">São Paulo - SP - Brasil</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-item led-glow fade-in cyber-border">
+                        <div class="contact-icon-container">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="icon-pulse"></div>
+                        </div>
+                        <h4 class="contact-title">Telefone</h4>
+                        <p class="contact-info" data-translate="contact_phone">(11) 994555772</p>
+                        <a href="tel:+5511994555772" class="btn btn-outline-primary btn-sm led-glow">
+                            <i class="fas fa-phone me-2"></i>Ligar Agora
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-item led-glow fade-in cyber-border">
+                        <div class="contact-icon-container">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="icon-pulse"></div>
+                        </div>
+                        <h4 class="contact-title">E-mail</h4>
+                        <p class="contact-info" data-translate="contact_email">goncalvesecodeepbusinesshub@gmail.com</p>
+                        <a href="mailto:goncalvesecodeepbusinesshub@gmail.com" class="btn btn-outline-primary btn-sm led-glow">
+                            <i class="fas fa-envelope me-2"></i>Enviar E-mail
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form-container led-glow cyber-border">
+                        <h3 class="text-center mb-4">Envie sua Mensagem</h3>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Nome</label>
+                                        <input type="text" class="form-control led-input" id="name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">E-mail</label>
+                                        <input type="email" class="form-control led-input" id="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label for="subject" class="form-label">Assunto</label>
+                                    <input type="text" class="form-control led-input" id="subject" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Mensagem</label>
+                                    <textarea class="form-control led-input" id="message" rows="5" required></textarea>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg led-glow">
+                                    <i class="fas fa-paper-plane me-2"></i>Enviar Mensagem
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer cyber-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-section">
+                        <h5 class="footer-title led-glow">
+                            <i class="fas fa-cube me-2"></i>Gonçalves & Co.
+                        </h5>
+                        <p class="footer-text">
+                            Tradição e modernidade em comércio, gestão e logística.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-section">
+                        <h5 class="footer-title led-glow">
+                            <i class="fas fa-link me-2"></i>Links Rápidos
+                        </h5>
+                        <ul class="footer-links">
+                            <li><a href="#home" class="footer-link led-glow">Início</a></li>
+                            <li><a href="#about" class="footer-link led-glow">Quem Somos</a></li>
+                            <li><a href="#services" class="footer-link led-glow">Serviços</a></li>
+                            <li><a href="#contact" class="footer-link led-glow">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-section">
+                        <h5 class="footer-title led-glow">
+                            <i class="fas fa-envelope me-2"></i>Contato
+                        </h5>
+                        <div class="footer-contact">
+                            <p class="contact-item">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+                                São Paulo - SP - Brasil
+                            </p>
+                            <p class="contact-item">
+                                <i class="fas fa-phone me-2"></i>
+                                (11) 994555772
+                            </p>
+                            <p class="contact-item">
+                                <i class="fas fa-envelope me-2"></i>
+                                goncalvesecodeepbusinesshub@gmail.com
+                            </p>
+                            <p class="contact-item">
+                                <i class="fas fa-globe me-2"></i>
+                                https://goncalveseco.logicaquantica.tech
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-copyright" data-translate="footer_copyright">
+                        © 2024 - Gonçalves & Co. Todos os Direitos Reservados.
+                    </p>
+                    <p class="footer-tagline">
+                        <span class="neon-text">Old Trade and Old Money</span> - 
+                        <span class="cyber-text">O Melhor dos Dois Mundos</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-glow"></div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="dist/js/bundle.js"></script>
+</body>
+</html>
